@@ -178,7 +178,7 @@
     text-indent: 50px;
     padding: 2%;
 }.teste{
-    width: 450px;
+    width:auto;
     height: 21px;
     background-color:var(--cor1);
     text-align: center;
