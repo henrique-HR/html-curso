@@ -1,0 +1,30 @@
+body{
+    background-image: url(../imagens/wallpaper001.jpg);
+}h1{
+    text-align: center;
+    background-color: rgba(177, 210, 227, 0.412);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.282) ;
+    width: 250px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}div{
+    margin:0px -8px 0px -8.9px ;
+}.quadrado{
+     border: 1px solid black;
+     display: block;
+     height: 300px;
+     width: auto/*300px*/;
+     border-radius: 10px;
+     background-color: rgb(187, 187, 186);
+
+}#q1{
+background-color: aqua;
+}
+#q2{
+    background-image:linear-gradient(aquamarine,blue);
+}#q3{
+    background-image: url(../imagens/pattern001.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
