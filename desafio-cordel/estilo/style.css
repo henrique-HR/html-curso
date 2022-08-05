@@ -1,17 +1,19 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }html,body{
     background-color: darkgray;
     min-height: 100vh;
+   
 }header{
     background-color: black;
     color: white;
     text-align: center;
 }header>h1{
     padding-top: 30px;
-    
+    font-size: 8vw;
     font-variant: small-caps;
 }header  >p{
     padding-bottom: 50px;
@@ -25,18 +27,22 @@
     background-color: aliceblue;
     color: black;
 }.imagem{
-    background-color: rgba(0, 0, 0, 0.147);
+    background-color: rgba(0, 0, 0, 0.54);
     color: white;
-
+    
 }section{
     padding-top:10% ;
     padding-bottom: 10%;
     line-height: 2em;
     padding-left: 10%;
+    font-family: 'pacifico',cursive;
+    font-size: 1.3em;
+    font-weight: 100;
 
 }section.imagem>p {
-    background-color: rgba(0, 0, 0, 0.586);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.645);
+    display: inline-block;
+    padding: 5%;
 }footer{
     background-color: black;
     text-align: center;
