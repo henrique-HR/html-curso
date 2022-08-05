@@ -1,0 +1,24 @@
+@charset "utf-8";
+h1{
+    text-align:center ;
+}td{
+    border:0.1px solid rgba(0, 0, 0, 0.295);
+    height:25px ;
+    
+   
+    
+} table{
+    color: rgb(254, 254, 254);
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;background-color: rgb(227, 226, 226);
+    background-image: url('/desafio-cordel/imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    
+}th{
+    border: 0.1px solid rgba(0, 0, 0, 0.295);
+    
+
+}

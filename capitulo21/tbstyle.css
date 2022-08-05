@@ -1,0 +1,29 @@
+@charset "utf-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}table , table>th{
+    width: 400px ;
+    height:400px;
+    border-collapse: collapse;
+    
+}td, th{
+    border :1px solid black;
+    padding: 8px;
+    
+}.a{
+    text-align: right;
+    vertical-align: middle;
+}.b{
+    text-align: left;
+    vertical-align: bottom;
+
+}.c{
+    text-align: right;
+    vertical-align: top;
+}.d{
+    text-align: left;
+    vertical-align: bottom;
+}.e{
+    text-align: right;
+    vertical-align: middle;
+}
