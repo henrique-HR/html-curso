@@ -5,8 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }h1{
+            width:auto;
+        }table{
+            position: relative;
+            border: solid black;
+            max-width: auto;
+            border-collapse: collapse;
+        }td , th {
+            border: solid;
+            padding: 10px;
+        }thead>tr>th{
+            position: sticky;
+            top: 0px;
+            background-color: rgb(153, 150, 150);
+
+
+        }thead,tfoot{
+           
+            background-color: rgba(128, 128, 128, 0.004);
+            color: rgb(0, 0, 0);
+        }caption{
+            font-size:1.5em;
+            font-weight: bold;
+            background-color: blanchedalmond;
+        }tbody>tr:nth-child(2n){
+            background-color: rgba(152, 152, 249, 0.455);
+        }
+
+    </style>
 </head>
 <body>
-    <h1>tabelas 2</h1>
+    
+    <table>
+        <caption>habitantes por estado</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col">populacao</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo </td>
+                <td>41 262 199</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais </td>
+                <td>19 597 330</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr><tr>
+                <td>Rio de Janeiro </td>
+                <td>15 989 929</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td><strong>000000</strong></td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+        
 </body>
 </html>
