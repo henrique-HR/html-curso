@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio tabelas parte 1</title>
+    <style>
+        body{
+            background-color: rgb(215, 215, 215);
+        }
+        div{
+            position: relative;
+            width: 350px;
+            height: 350px ;
+            margin: auto;
+            background-image:linear-gradient( rgba(255, 255, 255, 0.723) , rgb(0, 0, 0));
+            border:5px solid white ;
+            
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color: rgba(3, 3, 3, 0.766);
+            text-shadow: 1px 2px 2px white;
+            font-size: 3em;
+        }
+
+        table{
+            position: absolute;
+            top:8% ;
+            left:8% ;
+            border-radius:5%;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            font: lighter;
+            font-family:sans-serif;
+            background-color: rgb(63, 4, 255);
+            margin: auto;    
+        }
+        
+        td{
+            
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 1px  rgb(0, 0, 0) ;
+            font-size: 1.5em;
+            border-radius: 5%;
+            border: 1px solid black;
+        }
+
+       td#t85{
+            background-color:rgb(185, 185, 0);
+            
+        }
+        td#t1{
+            background-image:linear-gradient( to top, black,rgb(0, 255, 255));
+            border-radius: 50%;
+        }
+        td#t2{
+            background-image: linear-gradient( to right ,black ,rgb(0, 183, 255)
+            );
+            border-radius: 50%;
+        }
+        td#t3{
+            background-image:linear-gradient( to right ,rgb(0, 85, 255),black);
+            border-radius: 50%;
+        }
+        td#t4{
+            background-color: rgb(0, 17, 255);
+        }
+        td#t5{
+            background-color: rgb(98, 0, 246);
+        }
+        td#t6{
+            background-color: rgb(166, 0, 255);
+        }
+        td#t7{
+            background-color: rgb(238, 0, 255);
+        }
+        td#t8{
+            background-color: rgb(255, 0, 93);
+        }
+        td#t9{
+            background-color: rgb(255, 0, 34);
+        }
+        td#t10{
+            background-color: rgb(255, 0, 0);
+        }
+        td#t11{
+            background-color: rgb(255, 60, 0);
+        }
+        td#t12{
+            background-image:linear-gradient( to bottom, black ,rgb(255, 149, 0));
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>desafio parte 01 </h1>
+  <div>
+      
+      <table>
+          <tr>
+              <td colspan="4" id="t1">a</td>
+              <td rowspan="5" id="t2">b</td>
+          </tr>
+          <tr>
+              <td rowspan="5" id="t3">c</td>
+          </tr>
+          <tr>
+              <td id="t4">d</td> <td id="t5">e</td> <td id="t6">f</td>
+          </tr>
+          <tr>
+              <td id="t7">g</td><td id="t8">h</td><td id="t85">i</td>
+          </tr>
+          <tr>
+              <td id="t9">j</td>
+              <td id="t10">k</td>
+              <td id="t11">l</td>
+          </tr>
+          <tr>
+              <td colspan="4" id="t12">m</td>
+          </tr>
+      </table>
+  </div>
+</body>
+</html>
