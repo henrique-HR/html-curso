@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste-form</title>
+</head>
+<body>
+    <h1>teste de formulario </h1>
+    <form action="../aula04/cadastro.php" method="get" autocomplete="off">
+        <p>
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="nome completo" autocomplete="name">
+        </p>
+        <p>
+            <label       for="media">média</label>
+            <input type="number" name="med" id="media" placeholder="digite a media do aluno" step="0.1"> 
+        </p>
+        <p>
+            <label for="plet">periodo  letivo</label>
+            <input type="month" value="2022-09" name="mes" id="plet">
+        
+        </p>
+        <p>
+            <label for="date">dia da prova </label>
+            <input type="date" name="data" id="date">
+        </p>
+        <p>
+            <label for="hour">horario da prova </label><input type="time" name="horas" id="hour">
+        </p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
