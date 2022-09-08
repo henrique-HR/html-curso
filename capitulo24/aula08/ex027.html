@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+    <style>
+        span{
+            color: rgb(203, 98, 221);
+        }
+        h1{
+            text-align:center;
+            color: blueviolet;
+        }h1:hover ,span:hover{
+           color: black;
+        }
+        fieldset{
+            margin: auto;
+            width: 300px;
+            
+        }legend{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><span>checkbox</span> e radio </h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>sexo</legend>
+
+
+            <input type="radio" name="sexo" id="masc"checked ><label for="masc" value="masculino">masc</label> 
+            <input type="radio" name="sexo" id="fem" value="feminino"><label for="fem">fem</label>
+        </fieldset>
+        <fieldset>
+            
+
+            <legend>esportes favoritos</legend>
+
+            <input type="checkbox" name="" id="esnat"><label for="esnat">natação</label> <br>
+            <input type="checkbox" name="" id="esfut"><label for="esfut">futebol</label> <br>
+            <input type="checkbox" name="" id="esbasq"><label for="esbasq">basquete</label> <br>
+            <input type="checkbox" name="" id="esteni"><label for="esteni">tenís</label> <br>
+            <input type="checkbox" name="" id="esvolei"><label for="esvolei">volei <br>
+            </label> <br>
+
+        </fieldset>
+        <input type="submit" value="reponder">
+    </form>
+    
+</body>
+</html>

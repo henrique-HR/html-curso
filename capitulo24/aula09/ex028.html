@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementos </title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            margin: auto;
+        }
+        fieldset{
+            width:250px;
+            margin: auto;   
+        }
+    </style>
+</head>
+<body>
+    <h1>color, range e file em html</h1>
+    <form action="#" method="post" autocomplete="on">
+        <fieldset>
+            <legend>cores</legend>
+                <input type="color" name="cor" id="cor"value="#00ff00">
+        </fieldset><br>
+        <fieldset>
+            <legend>nivel</legend>
+                <label for="satis">seu nivel de satisfaçao</label><br>
+                <input type="range" name="satis" id="satis" min="0" max="10" value="0">
+        </fieldset><br>
+        <fieldset>
+            <legend>file</legend>
+                <label for="files">arquivo</label>
+                <input type="file" name="files" id="files">
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
