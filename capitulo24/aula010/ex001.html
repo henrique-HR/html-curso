@@ -10,7 +10,42 @@
     <h1>controles de formulario em html</h1>
 
     <form action="#" method="post">
+        <p>
+            <label for="ist">estado</label>
+            <select name="estado" id="ist">
+                <optgroup label="regiao sul">
+                    <option value="" selected>---escolha---</option>
+                    <option value="sp">são paulo</option>
+                    <option value="mg">minas gerais</option>
+                    <option value="rj">rio de janeiro</option>
+                    
+                </optgroup>
+
+                <optgroup label="regiao-nordeste ">
+                    <option value="pb">paraiba</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
         
+            <label for="list">profissão</label>
+            <input type="text" name="prof" id="lis"  list="profi" >
+            <datalist id="profi">
+                <option>açougueiro</option>
+                <option>cozinheiro</option>
+                <option>desevolvedor</option>
+                <option>chapeiro</option>
+                <option>pizzaiolo</option>
+            </datalist>
+        </p>
+        <p>
+            <textarea name="area" id="msg" cols="40" rows="5" placeholder="digite sua msg aqui... ">
+            </textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
     </form>
 </body>
 </html>
