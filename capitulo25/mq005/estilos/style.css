@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    padding: 0%
+}header{
+    background-color:rgb(168, 165, 165);
+   
+}header> h1 {
+    font-size: 3em; 
+    text-align: center;
+     
+}
+
+menu{
+    display: none;
+    
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+
+    background-color: gray;
+    border-top: 1px solid black;
+    color: black; 
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+menu > ul > li > a:hover{
+
+    background-color: rgb(149, 149, 149);
+}
+ header > #burguer{
+    background-color: rgb(66, 66, 66);
+    color:white;
+     display: block;
+    padding: 8px;
+    text-align: center;
+    cursor:pointer;
+   
+} header >#burguer:hover {
+    background-color: rgb(78, 77, 77);
+}
+
+body , html{
+    background-color: lightgray;
+    height: 100vh;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    max-width:90vw ;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+article > h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent:50px;
+    margin-bottom: 20px;
+
+} 
