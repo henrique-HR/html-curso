@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media screen and ( min-width:600px ) and (max-width:900px ){
+
+    menu {
+        display:block;
+        background-color: rgb(100, 100, 100);
+
+    }
+    header > #burguer{
+        display :none ;
+    }
+    menu > ul > li {
+        border-top: 1px solid transparent;
+        display: inline-block;
+        
+    }
+    menu > ul >li >a {
+        border:none ;
+        font-size: 1.5em;
+        border-radius: 10px ;
+        padding: 2px;
+        margin-left: 10px;
+        background-color: rgb(134, 132, 132);
+        color: white;
+        transition: 1s;
+    }
+
+
+}
