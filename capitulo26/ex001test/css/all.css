@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        width: 100vw;
+        height:100vh;
+        background-image: url('../imagens/felix-mittermeier-Knwea-mLGAg-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-color: black;
+        color: white;
+    }
+    section.formulario{
+        background-image: url('../imagens/tela.jpg');
+        background-size: cover;
+        background-position: center top;
+
+        min-width: 700px;
+        height: 500px;
+        
+    }
+    .material-symbols-rounded{
+        color: rgb(255, 255, 255);
+        display: block;
+    
+    }#seta{
+        display: none;
+        
+    }form{
+        position:absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50% , -50%);
+    }
+}

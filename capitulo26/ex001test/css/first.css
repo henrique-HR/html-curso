@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body , html {
+
+    background-color: rgb(115, 149, 98);
+}
+section.formulario{
+   
+    background-image: url('../imagens/fundo-logi.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    border-radius: 10%;
+    box-shadow: 2px 2px 10px 0.1px  rgba(0, 0, 0, 0.435);
+
+    height: 400px ;
+
+    margin: auto;
+    margin-top: 5px ;
+
+    width: 300px;
+    /**/
+     
+}
+h1{
+        padding-top: 50px;
+
+        text-align: center;
+        text-shadow: 1px 2px 1px rgba(56, 55, 55, 0.417) ;
+} 
+
+section > i.material-symbols-rounded{   
+    animation: seta 1s linear infinite;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 3em;
+    text-align: center;
+   
+}
+
+form{
+
+    display: block;
+    height:150px;
+    margin:auto;
+    padding-top:20%;
+    text-align: center;
+}
+
+input{
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.282);
+    display: inline-block;
+    margin:auto;
+    
+    
+
+} 
+#senha:hover , #email:hover{
+    background-color: #C2CCA3;
+
+}
+
+
+.material-symbols-rounded{
+    color: rgb(0, 0, 0);
+    display: block;
+}
+#lsenha:hover , #lemail:hover{
+    animation: login linear 0.1s 5;
+}
+
+#botao{
+    
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 3px;
+}
+#botao:hover {
+    background-color: #C2CCA3;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+
+}@keyframes seta{
+    0%{
+        transform: translateY(0px );
+        color:transparent;
+    }
+    50%{
+       transform: translateY( 20px  );
+        color: transparent;
+    }
+    100%{
+        transform: translateY(50px);
+        color: black;
+    }
+}@keyframes login{
+    0%{
+        transform: rotate(0deg);
+        
+    }30%{
+        transform: rotate(20deg) ;
+       
+    }70%{
+        transform: rotate(-20deg ) ;
+        
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
