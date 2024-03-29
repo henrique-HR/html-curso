@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            /* height:100px; */
+            /* para ultilização do 'wrap' e colunas é preciso altera a altura do container pai para alteraçao significativa 
+            ex: {
+                flex flow: column wrap ;
+                height:100px;
+             }
+                */
+        }
+        .item{
+           
+            display: flex;
+            flex: auto;
+            padding: 2%;
+            border: 1px solid black;
+        
+        }
+    </style>
+</head>
+<body>
+
+
+        <div class="container">
+           <div class="item">exemplo de bloco a .
+            </div>
+            <div class="item">exemplo de bloco b .</div>
+            <div class="item">exemplo de bloco c</div>
+            <div class="item">exemplo de bloco d</div>
+            <div class="item">exemplo de bloco e</div>
+        </div>
+    
+</body>
+</html>
